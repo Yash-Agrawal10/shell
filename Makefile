@@ -7,7 +7,7 @@ TARGET = wish
 all: $(TARGET)
 
 $(TARGET): $(SOURCES) $(HEADERS)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCES)
+	$(CC) $(CFLAGS) -o bin/$(TARGET) $(SOURCES)
 
 clean:
 	rm -f $(TARGET)
